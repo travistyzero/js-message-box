@@ -1,6 +1,6 @@
 {
   "name": "message-box",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "description": "A package for defining and getting validation error messages, with support for Meteor Tracker reactivity",
   "author": "Eric Dobbertin <aldeed@gmail.com>",
   "license": "MIT",
@@ -25,8 +25,7 @@
     "lint": "eslint ./lib/.",
     "prepublishOnly": "npm run build",
     "test": "mocha --require @babel/register --recursive lib/**/*.test.js",
-    "test:watch": "npm test -- --watch",
-    "prepare": "npm run build"
+    "test:watch": "npm test -- --watch"
   },
   "dependencies": {
     "lodash": "^4.17.21"
