@@ -25,7 +25,8 @@
     "lint": "eslint ./lib/.",
     "prepublishOnly": "npm run build",
     "test": "mocha --require @babel/register --recursive lib/**/*.test.js",
-    "test:watch": "npm test -- --watch"
+    "test:watch": "npm test -- --watch",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "lodash": "^4.17.21"
